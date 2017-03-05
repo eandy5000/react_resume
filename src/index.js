@@ -1,1 +1,3 @@
-console.log('I work');
+const foo = () => console.log('I still work');
+
+foo();

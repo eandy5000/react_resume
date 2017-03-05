@@ -4,7 +4,7 @@
   "description": "I want to rebuild my online resume with different technologies.  My current resume is built with Angular 1, gulp, bootstrap and hosted on heroku.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",

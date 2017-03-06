@@ -4,7 +4,8 @@
   "description": "I want to rebuild my online resume with different technologies.  My current resume is built with Angular 1, gulp, bootstrap and hosted on heroku.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack", 
+    "serve": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,12 @@
     "babel-loader": "^6.3.2",
     "babel-preset-env": "^1.2.0",
     "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.2",
     "eslint-config-rallycoding": "^3.2.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "image-webpack-loader": "^3.2.0",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
     "webpack": "^2.2.0-rc.0",
     "webpack-dev-server": "^2.2.0-rc.0"
   }

@@ -63,21 +63,46 @@
 /******/ 	__webpack_require__.p = "build/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8c9941dc0f03bacda3fd71dcd1f3147e.jpeg";
+
+/***/ },
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+__webpack_require__(0);
+
+var _test_image = __webpack_require__(1);
+
+var _test_image2 = _interopRequireDefault(_test_image);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var foo = function foo() {
-  return console.log('I still work');
+  return console.log('I still workzzzzzzz');
 };
 
 foo();
+
+var image = document.createElement('img');
+image.src = _test_image2.default;
+
+document.body.appendChild(image);
 
 /***/ }
 /******/ ]);

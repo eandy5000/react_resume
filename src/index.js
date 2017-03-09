@@ -1,13 +1,17 @@
-import './styles/style.css';
-import swimmer from '../src/images/test_image.jpeg';
+import './styles/style.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const foo = () => console.log('I still workzzzzzzz');
+import Header from './components/header';
 
-foo();
+const App = () => {
+    return (
+        <div>
+            <Header />
+        </div>
+    );
+};
 
-const image = document.createElement('img');
-image.src = swimmer;
-
-document.body.appendChild(image);
-
-
+ReactDOM.render(<App />,
+    document.querySelector('.target')
+);

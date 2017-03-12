@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Header = () => {
     return (
         <div>
-            Header
+            Header <br/>
+            <Link to="/one">one </Link>
         </div>
     );
 };

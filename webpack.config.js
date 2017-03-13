@@ -1,7 +1,8 @@
-const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+var path = require('path');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const config = {
+
+var config = {
     entry: './src/index.js',
 
     output: {
